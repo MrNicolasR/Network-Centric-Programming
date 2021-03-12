@@ -1,0 +1,19 @@
+****************
+CS:APP Proxy Lab
+****************
+
+Makefile	- For building proxy
+README		- This file
+
+# Proxy source files
+proxy.{c,h}	- Primary proxy code.
+csapp.{c,h}	- Wrapper and helper functions from the CS:APP text.
+
+
+# Implemented Functions
+main                - Main function for the program. Start the proxy-server.
+server              - Listen for incoming connections and prepares for processing. 
+process             -  Process request from client.
+parse_uri           - Parse the uri request from client.
+client              - Connect/ send request to server. Recieve message from server.
+format_log_entry    - Log responses from the server 
