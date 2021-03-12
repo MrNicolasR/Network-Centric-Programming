@@ -1,0 +1,11 @@
+Nicolas Rubert Nar126 172007635
+Network Centric Programming Assignment 1: p05
+I generated a 10MB text file containing a long string to test my program out. Instead of using multiple substring I wanted to test it just using one. 
+The difference between the first function and the second were night and day. The first function in my program name p1. 
+It opens the file and scans 1000 bits into the buffer for it to be processed by the algorithm that I’ve created. 
+Using this method, the real time for the program to run and produce an output was 3.090 seconds. 
+This can be cut down and run faster depending on how big you want to make the buffer and if the user computer has enough physical memory available.
+The second function in my program is name p2. This function opens the file and scans each letter. 
+If a letter that is scanned is found to be matching the substring letter it checks the next and so on to make sure the all the letters in the substring matched with the ones in the file. 
+By going character by character this process takes more time than the first function hence the total time it took to produce the outcome was 3.718s which is close to 4 seconds. 
+Making this funcIon almost a second slower than the first.
