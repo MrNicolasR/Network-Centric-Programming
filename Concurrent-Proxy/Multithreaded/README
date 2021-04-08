@@ -1,0 +1,32 @@
+// README
+
+// Files
+    - csapp.c
+    - csapp.h
+    - proxy.c
+    - Makefile
+    - README
+
+
+// Run
+    - Step 1:
+        - use the make command
+    - Step 2:
+        - Once the program compiles run the following command
+        -           proxy <port_number>
+
+
+
+// Testing
+    - To test the program I opened two seprete browsers on my computer (Chrome & Safari)
+    - I opened random websites such as yahoo.com/news on both browsers
+    - I checked the proxy file to make sure that the program was logging correctly
+    - I also checked to see what the server was sending back
+
+
+
+// Implementation
+    - Although my previous program ran as intended the professor posted her version of the program. 
+    I realized there were something missing so I decided to use her version of the program and made the
+    nessacry changes to make sure the program allows multiple client's to connect to the server at the same
+    time using in this case several threads.
